@@ -1,0 +1,29 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+    background-color: rgb(130, 130, 130);
+}
+.container{
+    display: grid;
+    padding: 60px;
+    gap: 10px;
+}
+#biggest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.input{
+    padding: 5px;
+}
+#evil-button {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 1rem;
+  }
+#b{
+    background-color: aqua;
+}
